@@ -1,0 +1,30 @@
+footer{
+    position: relative;
+    span{
+        cursor: pointer;
+        position: absolute;
+        font-size: 10vw;
+        color:burlywood;
+        &:hover{
+          color:rgb(235, 181, 81);
+          transition: 1s;
+        }  
+       
+        &:nth-of-type(1){
+          top:0;
+          right: 10%;
+        } 
+        &:nth-of-type(2){
+          right: 45%;
+          top:25%
+  
+        }
+        &:nth-of-type(3){
+          left: 15%;
+          top:10%
+  
+        }
+      
+    }
+  
+  }

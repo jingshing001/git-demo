@@ -1,0 +1,224 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
+  color: black;
+}
+.navbar-brand:hover {
+  color: black;
+}
+
+.nav-link {
+  font-font-family: "Kaisei Decol", serif;
+  font-weight: 500;
+  color: black;
+}
+.nav-link:hover {
+  color: black;
+}
+
+.inputSelf {
+  width: 80%;
+  padding: 6px 0px 6px 10px;
+  outline: none;
+  font-family: "Kaisei Decol", serif;
+  border: 2px solid #1ac4f8;
+  border-radius: 40px;
+}
+
+.btnSelf {
+  width: 90px;
+  padding: 6px;
+  background-color: #1ac4f8;
+  color: white;
+  margin-left: -40px;
+  font-family: "Kaisei Decol", serif;
+  font-weight: 700;
+  border: 1px solid #1ac4f8;
+  border-radius: 40px;
+}
+.btnSelf:hover {
+  border: 1px solid #2098bd;
+  background-color: #2098bd;
+}
+
+form:hover > .inputSelf {
+  border: 2px solid #2098bd;
+}
+
+.btnSelf1 {
+  width: 35%;
+  height: 45px;
+  color: white;
+  font-weight: 700;
+  background-color: #1ac4f8;
+  outline: none;
+  border: 1px solid #1ac4f8;
+  border-radius: 40px;
+}
+.btnSelf1:hover {
+  border: 1px solid #2098bd;
+  background-color: #2098bd;
+}
+
+.btnSelf2 {
+  width: 150px;
+  height: 40px;
+  outline: none;
+  background-color: #1ac4f8;
+  color: white;
+  font-weight: 700;
+  border: 1px solid #1ac4f8;
+  border-radius: 60px;
+}
+.btnSelf2:hover {
+  border: 1px solid #2098bd;
+  background-color: #2098bd;
+}
+
+#mainPic {
+  width: 100%;
+  height: 100vh;
+  color: #04acfa;
+  background-image: url(../image/foodiesfeed.com_berries-smoothie-bowl.jpg);
+  background-position: right;
+  background-size: cover;
+}
+
+.titleMain {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.titleMain h1 {
+  font-size: 5rem;
+  font-weight: 700;
+}
+
+#iconArea img {
+  width: 100px;
+  height: 100px;
+}
+
+.test {
+  clip-path: circle(0%);
+}
+
+.iconImgEf {
+  clip-path: circle(100%);
+  transition: 6s;
+}
+
+.title1 h1 {
+  font-weight: 700;
+}
+
+.card:hover {
+  box-shadow: 5px 4px 5px #aaa3a3;
+}
+
+#middleImg {
+  height: 100vh;
+  margin-top: 80px;
+  background-image: url("../image/middleImg.jpg");
+  background-size: cover;
+}
+
+.title2 h1 {
+  color: #908787;
+  margin-top: 40px;
+  font-weight: 700;
+  font-family: "Dancing Script", cursive;
+}
+
+#contactUs h6 {
+  font-weight: 700;
+}
+
+footer {
+  width: 100%;
+  margin-top: 200px;
+  background-color: #137b9b;
+  color: white;
+}
+footer h1 {
+  font-weight: 700;
+}
+
+.inputFooter {
+  width: 40%;
+  height: 40px;
+  outline: none;
+  border: 2px solid white;
+  background: none;
+  color: white;
+}
+.inputFooter::placeholder {
+  color: white;
+}
+
+.btnFooter {
+  width: 100px;
+  height: 40px;
+  border: none;
+  font-weight: 700;
+  margin-left: -100px;
+}
+
+.footerContent {
+  width: 80%;
+}
+.footerContent span {
+  font-size: 3rem;
+  margin: 0 3px;
+}
+
+.navbar-toggler-icon {
+  margin-top: 10px;
+  font-size: 3rem;
+}
+
+/* js set style */
+.test01 {
+  text-shadow: 20px 20px 15px #726e6e;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.test01:nth-child(1) {
+  animation: test 5s forwards;
+}
+
+.test01:hover {
+  transition: 0.2s;
+  transform: rotate(360deg);
+  color: crimson;
+}
+
+@keyframes test {
+  0% {
+    color: #04acfa;
+    font-size: 5rem;
+  }
+  25% {
+    color: #48CAE4;
+  }
+  50% {
+    color: #90E0EF;
+  }
+  75% {
+    color: #ADE8F4;
+  }
+  100% {
+    color: #CAF0F8;
+    font-size: 8rem;
+  }
+}
+
+/*# sourceMappingURL=dessert.css.map */

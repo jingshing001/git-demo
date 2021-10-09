@@ -1,3 +1,3 @@
 # Demo
 
-https://jingshing001.github.io/vueproject/tool/#/todo
+https://jingshing001.github.io/vueproject/tool/

@@ -53,7 +53,7 @@ npm run build
 
 Customize configuration
 
-See Configuration Reference.
+See <a href="https://cli.vuejs.org/config/">Configuration Reference</a>.
 
 
 

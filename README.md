@@ -4,7 +4,7 @@ https://jingshing001.github.io/vueproject/tool/
 
 # Introduce
 
-這網頁設計作品目前有兩個功能:
+網頁設計作品功能介紹:
 
 
 `貼心提醒:按下Alt+任意鍵,會自動focus輸入框`
@@ -35,7 +35,6 @@ https://jingshing001.github.io/vueproject/tool/
 >5.Sass
 
 >6.Git
-
 
 
 

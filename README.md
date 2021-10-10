@@ -37,6 +37,11 @@ https://jingshing001.github.io/vueproject/tool/
 >6.Git
 
 ## Project setup
+
+```
+Enter vueprojectcode folder
+```
+
 ```
 npm install
 ```

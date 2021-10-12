@@ -4,8 +4,17 @@ https://jingshing001.github.io/vueproject/tool/
 
 # Introduce
 
-網頁設計作品功能介紹:
+* 想設計出自己獨特的風格網頁,運用了預處理器Scss來編寫Css.
 
+* 使用Vue實現組件化思想,把網頁進行拆分成組件,並把邏輯寫進相對應的組件利於維護和擴展.
+
+* 使用Vue-router實現功能切換.
+
+* 使用LocalStorage儲存數據.
+
+* 並使用axios向中央氣象局開放資料平臺請求數據.
+
+網頁設計作品功能介紹:
 
 `貼心提醒:按下Alt+任意鍵,會自動focus輸入框`
 
@@ -32,7 +41,7 @@ https://jingshing001.github.io/vueproject/tool/
   
 >4.Es6
 
->5.Scss
+>5.Sass
 
 >6.Git
 

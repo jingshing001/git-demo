@@ -32,7 +32,7 @@ https://jingshing001.github.io/vueproject/tool/
   
 >4.Es6
 
->5.Sass
+>5.Scss
 
 >6.Git
 

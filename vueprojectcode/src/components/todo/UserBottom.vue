@@ -34,7 +34,7 @@ export default {
      
      //判斷事項是否以勾選
       allSelect(){
-      return this.alldone == this.alreadyFinish && this.todoArr.length>0
+      return this.alldone == this.alreadyFinish
     },
   },
       methods:{

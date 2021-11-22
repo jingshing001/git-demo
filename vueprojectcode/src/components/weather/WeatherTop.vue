@@ -17,8 +17,6 @@ export default {
             topText:"",
             locationArray:[],
             newlocationArray:{},
-            isFind:true
-
         }
     },
     methods:{
@@ -82,7 +80,7 @@ export default {
            
             if(this.newlocationArray ==undefined){
                 
-                this.$bus.$emit('notFind',this.notFind);
+                this.$bus.$emit('notFind');
                 return
             }
              
